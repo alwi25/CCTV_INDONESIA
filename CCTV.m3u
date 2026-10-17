@@ -23,8 +23,6 @@ https://atcs.denpasarkota.go.id/hls/caturmuka.m3u8
 #EXTINF:-1 group-title="CCTV Surabaya", SITS Taman Bungkul
 https://sits.surabaya.go.id/hls/tamanbungkul.m3u8
 
-#EXTINF:-1 group-title="CCTV Surabaya", SITS Simpang Pemuda
-
 #EXTINF:-1 tvg-name="MS ACEH - KANTIN/MUSHOLA/HALAMAN PARKIR - Banda Aceh - Aceh" group-title="CCTV Aceh",MS ACEH - KANTIN/MUSHOLA/HALAMAN PARKIR - Banda Aceh - Aceh [640x360 H264]
 https://msaceh.cctvbadilag.my.id/401582MSACEH/streams/347139560753616857817263.m3u8
 #EXTINF:-1 tvg-name="MS ACEH - PTSP - Banda Aceh - Aceh" group-title="CCTV Aceh",MS ACEH - PTSP - Banda Aceh - Aceh [640x360 H264]
