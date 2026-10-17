@@ -1,0 +1,27 @@
+- name: Commit and Push Changes
+        id: commit_step
+        run: |
+          if [ -f "playlist_aktif.m3u" ]; then
+            mv playlist_aktif.m3u cctv_indonesia.m3u
+          fi
+
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add cctv_indonesia.m3u
+          if git diff --staged --quiet; then
+            echo "Tidak ada perubahan."
+            echo "updated=false" >> $GITHUB_OUTPUT
+          else
+            git commit -m "chore: pembersihan otomatis tautan M3U mati [bot]"
+            git push
+            echo "updated=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Send Telegram Notification
+        if: steps.commit_step.outputs.updated == 'true'
+        uses: appleboy/telegram-action@master
+        with:
+          to: ${{ 437645354 }}
+          token: ${{ 8806858090:AAGyGfBt3iOf9Tbu262UZSBEQ7MFjXJ80hc }}
+          message: 'Daftar M3U CCTV telah diperbarui dan tautan mati telah dihapus!'
