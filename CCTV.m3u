@@ -5,24 +5,6 @@
 
 #TERUJI: 2420 kamera lolos uji putar (ffprobe) â host mati sudah dibuang
 
-#EXTINF:-1 group-title="CCTV Yogyakarta", Tugu Yogyakarta
-https://cctv.jogjakota.go.id/hls/tugu.m3u8
-
-#EXTINF:-1 group-title="CCTV Yogyakarta", Titik Nol Kilometer Jogja
-https://cctv.jogjakota.go.id/hls/nolkm.m3u8
-
-#EXTINF:-1 group-title="CCTV Yogyakarta", Malioboro 1
-https://cctv.jogjakota.go.id/hls/malioboro1.m3u8
-
-#EXTINF:-1 group-title="CCTV Denpasar", ATCS Simpang Dewa Ruci
-https://atcs.denpasarkota.go.id/hls/dewaruci.m3u8
-
-#EXTINF:-1 group-title="CCTV Denpasar", Simpang Patung Catur Muka
-https://atcs.denpasarkota.go.id/hls/caturmuka.m3u8
-
-#EXTINF:-1 group-title="CCTV Surabaya", SITS Taman Bungkul
-https://sits.surabaya.go.id/hls/tamanbungkul.m3u8
-
 #EXTINF:-1 tvg-name="MS ACEH - KANTIN/MUSHOLA/HALAMAN PARKIR - Banda Aceh - Aceh" group-title="CCTV Aceh",MS ACEH - KANTIN/MUSHOLA/HALAMAN PARKIR - Banda Aceh - Aceh [640x360 H264]
 https://msaceh.cctvbadilag.my.id/401582MSACEH/streams/347139560753616857817263.m3u8
 #EXTINF:-1 tvg-name="MS ACEH - PTSP - Banda Aceh - Aceh" group-title="CCTV Aceh",MS ACEH - PTSP - Banda Aceh - Aceh [640x360 H264]
